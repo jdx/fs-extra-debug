@@ -80,7 +80,7 @@ function init() {
   let debug
   try {
     debug = require('debug')('fs')
-    if (!debug.enabled || process.env.FS_EXTRA_DEBUG !== '1') return
+    if (!debug.enabled || process.env.FS_DEBUG !== '1') return
     const fs = require('fs-extra')
     for (let name of fns) {
       const real = fs[name]

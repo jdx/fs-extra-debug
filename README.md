@@ -8,7 +8,7 @@ Usage
 
 Add `require('fs-extra-debug')` before you start using `fs-extra`. It does not need to be required before `fs-extra`.
 
-Then when you run your application, set the environment variables: `FS_EXTRA_DEBUG=1` and `DEBUG=fs`.
+Then when you run your application, set the environment variables: `FS_DEBUG=1` and `DEBUG=fs`. You can also use `DEBUG=*`. (See [debug](https://npmjs.org/package/debug) for more info)
 
 Example output:
 
