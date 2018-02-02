@@ -2,6 +2,9 @@
   "name": "fs-extra-debug",
   "version": "1.0.0",
   "author": "Jeff Dickey",
+  "dependencies": {
+    "debug": "^3.1.0"
+  },
   "devDependencies": {
     "chai": "^4.1.2",
     "eslint": "^4.16.0",
@@ -9,18 +12,15 @@
     "fs-extra": "^5.0.0",
     "mocha": "^5.0.0"
   },
-  "files": [
-    "index.js"
-  ],
   "engines": {
     "node": ">=8.0.0"
   },
+  "files": [
+    "index.js"
+  ],
   "license": "MIT",
   "main": "index.js",
   "scripts": {
     "test": "mocha && eslint ."
-  },
-  "dependencies": {
-    "debug": "^3.1.0"
   }
 }
